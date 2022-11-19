@@ -10,3 +10,11 @@ html {
   color: #fff;
   background-color: #24251D;
 }
+
+#logo {
+  font-family: source-code-pro, monospace;
+  font-size: 1.75rem;
+  font-weight: 400;
+  font-style: italic;
+}
+
