@@ -14,7 +14,22 @@ html {
 #logo {
   font-family: source-code-pro, monospace;
   font-size: 1.75rem;
-  font-weight: 400;
   font-style: italic;
 }
 
+nav ul a {
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.9rem;
+  font-style: normal;
+  letter-spacing: 0.2rem;
+  text-decoration: none;
+  position: relative;
+  left: 0px;
+  transition: left 0.3s;
+}
+
+nav ul a:hover {
+  font-style: italic;
+  left: 2px;
+}
