@@ -33,3 +33,33 @@ nav ul a:hover {
   font-style: italic;
   left: 2px;
 }
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 5%;
+  width: 100%;
+  z-index: 999;
+}
+
+nav {
+  display: flex;
+  min-width: 80%;
+}
+
+nav ul {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  padding: 0.625rem 2rem;
+}
