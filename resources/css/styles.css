@@ -7,8 +7,8 @@
 /* Typography */
 html {
   font-size: 16px;
-  color: #fff;
-  background-color: #24251D;
+  color: #F3EFE3;
+  background-color: #1a1b15;
 }
 
 #logo {
@@ -18,7 +18,7 @@ html {
 }
 
 nav ul a {
-  color: #fff;
+  color: #F3EFE3;
   font-family: 'Montserrat', sans-serif;
   font-size: 0.9rem;
   font-style: normal;
@@ -30,7 +30,7 @@ nav ul a {
 }
 
 nav ul a:hover {
-  color: rgba(255, 255, 255, 0.577);
+  color: #e7e3d49e;
   font-style: italic;
   left: 2px;
 }
@@ -63,4 +63,55 @@ nav li {
 
 nav a {
   padding: 0.625rem 2rem;
+}
+
+.hero h5 {
+  font-family: source-code-pro, monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+}
+
+.hero h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 6rem;
+}
+
+.hero h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: 0.2rem;
+}
+
+/* Hero */
+.hero {
+  height: 90vh;
+  display: flex;
+}
+
+.hero-content {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.hero .img-container {
+  display: flex;
+  justify-content: center;
+  width: 30%;
+}
+
+.hero img {
+  width: 1000%;
+}
+
+.hero .text-container {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
 }
