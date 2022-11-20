@@ -26,10 +26,11 @@ nav ul a {
   text-decoration: none;
   position: relative;
   left: 0px;
-  transition: left 0.3s;
+  transition: left 0.3s, color 0.2s;
 }
 
 nav ul a:hover {
+  color: rgba(255, 255, 255, 0.577);
   font-style: italic;
   left: 2px;
 }
